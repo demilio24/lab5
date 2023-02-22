@@ -1,0 +1,60 @@
+/* Set background color and text color for body */
+body {
+  background-color: #0f0f1d;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Style table headers */
+th {
+  background-color: #FFD700;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table data */
+td {
+  background-color: #111;
+  color: #eee;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Style the images */
+table img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 150px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+/* Add hover effect on table rows */
+tr:hover {
+  background-color: #222;
+}
+
+/* Style the first column */
+td:first-child {
+  font-style: italic;
+  font-weight: bold;
+}
